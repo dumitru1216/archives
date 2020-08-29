@@ -1,0 +1,762 @@
+{
+	"config" : 
+	{
+		"antiaim" : 
+		{
+			"antiaim_override" : 
+			{
+				"back" : 
+				{
+					"active" : false,
+					"key" : 40,
+					"type" : 1
+				},
+				"enable" : true,
+				"left" : 
+				{
+					"active" : false,
+					"key" : 37,
+					"type" : 1
+				},
+				"right" : 
+				{
+					"active" : false,
+					"key" : 39,
+					"type" : 1
+				}
+			},
+			"enable" : true,
+			"fakeduck" : 
+			{
+				"active" : false,
+				"key" : 67,
+				"type" : 1
+			},
+			"fakelag" : 
+			{
+				"factor" : 8,
+				"fakelag_onshot" : true,
+				"switch_ticks" : 25,
+				"type" : 1
+			},
+			"inverter" : 
+			{
+				"active" : false,
+				"key" : 0,
+				"type" : 0
+			},
+			"slowwalk" : 
+			{
+				"active" : false,
+				"key" : 16,
+				"type" : 1
+			}
+		},
+		"misc" : 
+		{
+			"anti_untrusted" : true,
+			"autobuy" : 
+			{
+				"enable" : false,
+				"main" : 0,
+				"misc" : 0,
+				"pistol" : 0
+			},
+			"bunnyhop" : true,
+			"clantag" : true,
+			"hold_firinganims" : false,
+			"knifebot" : true,
+			"viewmodel" : 
+			{
+				"x" : 0,
+				"y" : 6,
+				"z" : -7
+			}
+		},
+		"name" : "config.json",
+		"players" : 
+		{
+			"esp" : 
+			{
+				"ammo" : true,
+				"ammo_color" : 
+				{
+					"alpha" : 255,
+					"blue" : 255,
+					"green" : 83,
+					"red" : 0
+				},
+				"box" : false,
+				"box_color" : 
+				{
+					"alpha" : 255,
+					"blue" : 255,
+					"green" : 255,
+					"red" : 255
+				},
+				"dormant" : false,
+				"enable" : true,
+				"flags" : 0,
+				"flags_color" : 
+				{
+					"alpha" : 255,
+					"blue" : 255,
+					"green" : 255,
+					"red" : 255
+				},
+				"healthbar" : 
+				{
+					"enable" : true,
+					"hp_color" : 
+					{
+						"alpha" : 255,
+						"blue" : 255,
+						"green" : 119,
+						"red" : 0
+					},
+					"override_hp" : true
+				},
+				"name" : true,
+				"name_color" : 
+				{
+					"alpha" : 255,
+					"blue" : 255,
+					"green" : 255,
+					"red" : 255
+				},
+				"out_of_fov" : 
+				{
+					"color" : 
+					{
+						"alpha" : 255,
+						"blue" : 255,
+						"green" : 255,
+						"red" : 255
+					},
+					"distance" : 30,
+					"enable" : false,
+					"size" : 30
+				},
+				"show_multipoint" : false,
+				"skeleton" : false,
+				"skeleton_color" : 
+				{
+					"alpha" : 255,
+					"blue" : 255,
+					"green" : 255,
+					"red" : 255
+				},
+				"weapon" : true,
+				"weapon_color" : 
+				{
+					"alpha" : 255,
+					"blue" : 255,
+					"green" : 255,
+					"red" : 255
+				}
+			},
+			"misc" : 
+			{
+				"aspect_ratio" : 112,
+				"eventlog" : 
+				{
+					"color" : 
+					{
+						"alpha" : 255,
+						"blue" : 255,
+						"green" : 255,
+						"red" : 255
+					},
+					"enable" : true
+				},
+				"hitmarker" : 
+				{
+					"color" : 
+					{
+						"alpha" : 255,
+						"blue" : 135,
+						"green" : 135,
+						"red" : 255
+					},
+					"enable" : 2,
+					"enable_sound" : true
+				},
+				"indicators" : 127,
+				"nadepred" : 
+				{
+					"color" : 
+					{
+						"alpha" : 255,
+						"blue" : 255,
+						"green" : 255,
+						"red" : 255
+					},
+					"enable" : false
+				},
+				"thirdperson" : 
+				{
+					"bind" : 
+					{
+						"active" : true,
+						"key" : 4,
+						"type" : 2
+					},
+					"distance" : 150,
+					"enable" : true
+				}
+			},
+			"models" : 
+			{
+				"chams" : 
+				{
+					"enemy" : 
+					{
+						"brightness" : 100,
+						"enable" : false,
+						"material" : 0,
+						"metallic_color" : 
+						{
+							"alpha" : 150,
+							"blue" : 219,
+							"green" : 229,
+							"red" : 255
+						},
+						"overlay" : 1,
+						"overlay_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 0,
+							"red" : 159
+						},
+						"overlay_xqz" : 1,
+						"pearlescent" : 0,
+						"phong_boost" : 0,
+						"phong_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 219,
+							"green" : 229,
+							"red" : 255
+						},
+						"phong_exponent" : 0,
+						"rim" : 0,
+						"through_walls" : true,
+						"through_walls_color" : 
+						{
+							"alpha" : 166,
+							"blue" : 255,
+							"green" : 65,
+							"red" : 0
+						},
+						"visible_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 155,
+							"red" : 0
+						},
+						"xqz_overlay_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 128,
+							"red" : 0
+						}
+					},
+					"local" : 
+					{
+						"blend_on_scope" : false,
+						"blend_value" : 0,
+						"brightness" : 100,
+						"enable" : false,
+						"interpolated" : false,
+						"material" : 0,
+						"metallic_color" : 
+						{
+							"alpha" : 150,
+							"blue" : 219,
+							"green" : 229,
+							"red" : 255
+						},
+						"overlay" : 0,
+						"overlay_color" : 
+						{
+							"alpha" : 0,
+							"blue" : 0,
+							"green" : 0,
+							"red" : 0
+						},
+						"pearlescent" : 0,
+						"phong_boost" : 0,
+						"phong_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 219,
+							"green" : 229,
+							"red" : 255
+						},
+						"phong_exponent" : 0,
+						"rim" : 0,
+						"visible_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 82,
+							"green" : 255,
+							"red" : 200
+						}
+					},
+					"misc_chams_0" : 
+					{
+						"brightness" : 100,
+						"enable" : false,
+						"material" : 0,
+						"metallic_color" : 
+						{
+							"alpha" : 150,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"model_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"overlay" : 0,
+						"overlay_color" : 
+						{
+							"alpha" : 0,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"pearlescent" : 0,
+						"phong_boost" : 0,
+						"phong_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"phong_exponent" : 0,
+						"rim" : 0
+					},
+					"misc_chams_1" : 
+					{
+						"brightness" : 100,
+						"enable" : false,
+						"material" : 0,
+						"metallic_color" : 
+						{
+							"alpha" : 150,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"model_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"overlay" : 0,
+						"overlay_color" : 
+						{
+							"alpha" : 0,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"pearlescent" : 0,
+						"phong_boost" : 0,
+						"phong_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"phong_exponent" : 0,
+						"rim" : 0
+					},
+					"misc_chams_2" : 
+					{
+						"brightness" : 100,
+						"enable" : false,
+						"interpolated" : false,
+						"material" : 0,
+						"metallic_color" : 
+						{
+							"alpha" : 150,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"model_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"overlay" : 0,
+						"overlay_color" : 
+						{
+							"alpha" : 0,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"pearlescent" : 0,
+						"phong_boost" : 0,
+						"phong_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"phong_exponent" : 0,
+						"rim" : 0
+					},
+					"misc_chams_3" : 
+					{
+						"brightness" : 100,
+						"enable" : true,
+						"interpolated" : false,
+						"material" : 0,
+						"metallic_color" : 
+						{
+							"alpha" : 150,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"model_color" : 
+						{
+							"alpha" : 163,
+							"blue" : 255,
+							"green" : 47,
+							"red" : 0
+						},
+						"overlay" : 1,
+						"overlay_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 137,
+							"red" : 0
+						},
+						"pearlescent" : 0,
+						"phong_boost" : 0,
+						"phong_color" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"phong_exponent" : 0,
+						"rim" : 0
+					}
+				},
+				"glow" : 
+				{
+					"enemy" : 
+					{
+						"color" : 
+						{
+							"alpha" : 255,
+							"blue" : 47,
+							"green" : 192,
+							"red" : 214
+						},
+						"enable" : false
+					},
+					"local" : 
+					{
+						"color" : 
+						{
+							"alpha" : 255,
+							"blue" : 47,
+							"green" : 192,
+							"red" : 214
+						},
+						"enable" : false
+					},
+					"style" : 0
+				}
+			}
+		},
+		"ragebot" : 
+		{
+			"auto_scope" : true,
+			"auto_shoot" : true,
+			"backshoot_bt" : false,
+			"delayshot" : true,
+			"double_tap" : 
+			{
+				"active" : true,
+				"key" : 90,
+				"type" : 2
+			},
+			"dt_instant" : true,
+			"enable" : true,
+			"force_body" : 
+			{
+				"active" : false,
+				"key" : 0,
+				"type" : 0
+			},
+			"hitchance_consider_hitbox" : false,
+			"override_dmg" : 
+			{
+				"active" : false,
+				"key" : 0,
+				"type" : 0
+			},
+			"posadj" : false,
+			"resolver" : true,
+			"shot_clr" : 
+			{
+				"alpha" : 255,
+				"blue" : 255,
+				"green" : 255,
+				"red" : 255
+			},
+			"shot_record" : false,
+			"weapon_cfg" : 
+			{
+				"weapon_0" : 
+				{
+					"adaptive_baim" : false,
+					"baim" : 0,
+					"baim_under_hp" : 0,
+					"enable" : false,
+					"hitchance" : 0,
+					"hitchance_type" : 0,
+					"hitscan" : 0,
+					"hitscan_baim" : 0,
+					"max_misses" : 0,
+					"mindamage" : 0,
+					"mindamage_override" : 0,
+					"multipoint" : false,
+					"pointscale_body" : 0,
+					"pointscale_head" : 0,
+					"pointscale_limbs" : 0,
+					"quickstop" : false,
+					"quickstop_options" : 0
+				},
+				"weapon_1" : 
+				{
+					"adaptive_baim" : true,
+					"baim" : 3,
+					"baim_under_hp" : 15,
+					"enable" : true,
+					"hitchance" : 66,
+					"hitchance_type" : 0,
+					"hitscan" : 511,
+					"hitscan_baim" : 0,
+					"max_misses" : 1,
+					"mindamage" : 20,
+					"mindamage_override" : 0,
+					"multipoint" : true,
+					"pointscale_body" : 55,
+					"pointscale_head" : 45,
+					"pointscale_limbs" : 0,
+					"quickstop" : true,
+					"quickstop_options" : 3
+				},
+				"weapon_2" : 
+				{
+					"adaptive_baim" : false,
+					"baim" : 0,
+					"baim_under_hp" : 0,
+					"enable" : true,
+					"hitchance" : 71,
+					"hitchance_type" : 0,
+					"hitscan" : 511,
+					"hitscan_baim" : 0,
+					"max_misses" : 0,
+					"mindamage" : 50,
+					"mindamage_override" : 0,
+					"multipoint" : true,
+					"pointscale_body" : 60,
+					"pointscale_head" : 50,
+					"pointscale_limbs" : 0,
+					"quickstop" : false,
+					"quickstop_options" : 3
+				},
+				"weapon_3" : 
+				{
+					"adaptive_baim" : true,
+					"baim" : 7,
+					"baim_under_hp" : 26,
+					"enable" : true,
+					"hitchance" : 71,
+					"hitchance_type" : 0,
+					"hitscan" : 511,
+					"hitscan_baim" : 7,
+					"max_misses" : 1,
+					"mindamage" : 58,
+					"mindamage_override" : 0,
+					"multipoint" : true,
+					"pointscale_body" : 52,
+					"pointscale_head" : 47,
+					"pointscale_limbs" : 0,
+					"quickstop" : false,
+					"quickstop_options" : 0
+				},
+				"weapon_4" : 
+				{
+					"adaptive_baim" : false,
+					"baim" : 0,
+					"baim_under_hp" : 0,
+					"enable" : false,
+					"hitchance" : 0,
+					"hitchance_type" : 0,
+					"hitscan" : 0,
+					"hitscan_baim" : 0,
+					"max_misses" : 0,
+					"mindamage" : 0,
+					"mindamage_override" : 0,
+					"multipoint" : false,
+					"pointscale_body" : 0,
+					"pointscale_head" : 0,
+					"pointscale_limbs" : 0,
+					"quickstop" : false,
+					"quickstop_options" : 0
+				},
+				"weapon_5" : 
+				{
+					"adaptive_baim" : true,
+					"baim" : 0,
+					"baim_under_hp" : 0,
+					"enable" : true,
+					"hitchance" : 60,
+					"hitchance_type" : 0,
+					"hitscan" : 511,
+					"hitscan_baim" : 0,
+					"max_misses" : 0,
+					"mindamage" : 11,
+					"mindamage_override" : 0,
+					"multipoint" : true,
+					"pointscale_body" : 58,
+					"pointscale_head" : 43,
+					"pointscale_limbs" : 0,
+					"quickstop" : false,
+					"quickstop_options" : 0
+				},
+				"weapon_6" : 
+				{
+					"adaptive_baim" : false,
+					"baim" : 0,
+					"baim_under_hp" : 0,
+					"enable" : true,
+					"hitchance" : 57,
+					"hitchance_type" : 0,
+					"hitscan" : 511,
+					"hitscan_baim" : 0,
+					"max_misses" : 0,
+					"mindamage" : 21,
+					"mindamage_override" : 0,
+					"multipoint" : true,
+					"pointscale_body" : 57,
+					"pointscale_head" : 41,
+					"pointscale_limbs" : 0,
+					"quickstop" : true,
+					"quickstop_options" : 3
+				}
+			}
+		},
+		"world" : 
+		{
+			"effects" : 
+			{
+				"force_crosshair" : false,
+				"kill_effect" : true,
+				"nightmode" : 
+				{
+					"color" : 
+					{
+						"prop" : 
+						{
+							"alpha" : 255,
+							"blue" : 255,
+							"green" : 255,
+							"red" : 255
+						},
+						"skybox" : 
+						{
+							"alpha" : 255,
+							"blue" : 0,
+							"green" : 89,
+							"red" : 255
+						},
+						"world" : 
+						{
+							"alpha" : 255,
+							"blue" : 46,
+							"green" : 41,
+							"red" : 43
+						}
+					},
+					"enable" : true
+				},
+				"removals" : 255,
+				"viewmodel_fov" : 68,
+				"world_fov" : 90
+			},
+			"tracers" : 
+			{
+				"bullet_impact" : 
+				{
+					"color" : 
+					{
+						"alpha" : 255,
+						"blue" : 255,
+						"green" : 0,
+						"red" : 0
+					},
+					"enable" : false
+				},
+				"bullet_impact_client" : 
+				{
+					"color" : 
+					{
+						"alpha" : 255,
+						"blue" : 0,
+						"green" : 0,
+						"red" : 255
+					}
+				},
+				"bullet_tracer" : 
+				{
+					"color" : 
+					{
+						"alpha" : 255,
+						"blue" : 255,
+						"green" : 165,
+						"red" : 0
+					},
+					"enable" : true,
+					"local" : true,
+					"local_color" : 
+					{
+						"alpha" : 255,
+						"blue" : 219,
+						"green" : 255,
+						"red" : 0
+					},
+					"size" : 0.0,
+					"sprite" : 0
+				}
+			}
+		}
+	}
+}
